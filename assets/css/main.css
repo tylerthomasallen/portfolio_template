@@ -3536,3 +3536,11 @@ input, select, textarea {
 .profile-pic {
 	height: 280px;
 }
+
+.project-mobile-images {
+	display: flex;
+}
+
+.project-mobile-images img {
+	margin: 3px;
+}
