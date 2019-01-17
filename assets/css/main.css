@@ -2367,6 +2367,7 @@ input, select, textarea {
 		}
 
 			.image.fit img {
+				height: 240px;
 			}
 
 /* List */
