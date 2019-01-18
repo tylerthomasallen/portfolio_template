@@ -152,8 +152,9 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 26px;
 		line-height: 1.5em;
+		font-weight: bold;
 	}
 
 	h4 {
@@ -2043,6 +2044,10 @@ input, select, textarea {
 			width: 6em;
 		}
 
+		header.projects-header:after {
+			background: white;
+		}
+
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			margin: 0;
 		}
@@ -2368,7 +2373,6 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				height: 100%;
 				max-width: 100%;
 			}
 
