@@ -20,7 +20,18 @@
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+      <script>
+        if (window.location.protocol == "http:") {
+          console.log("You are not connected with a secure connection.")
+          console.log("Reloading the page to a Secure Connection...")
+          window.location = document.URL.replace("http://", "https://");
+        }
+    
+        if (window.location.protocol == "https:") {
+          console.log("You are connected with a secure connection.")
+        }
+    </script>
 	</head>
 	<body class="is-preload">
 
